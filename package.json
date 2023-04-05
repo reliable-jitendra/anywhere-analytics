@@ -1,0 +1,22 @@
+{
+  "name": "analytics",
+  "version": "1.0",
+  "description": "Note_Realogy_hosts_are_deprecated__https_api_realogy_com__We_recommend_the_use_of_Anywhere_API_hosts__https_api_anywhere_re____New_Consumers___Use_https_api_anywhere_re___Existing_Consumers___https_api_realogy_com_will_continue_to_work_as_is_but_plan_to_use_https_api_anywhere_re_host__OverviewThis_API_is_use_to_retrieve_all_the_metric_definitions_team_metrics_office_metrics_agent_metrics_company_metrics_and_listing_metrics__Use_this_API_to__fetch_metric_definitions___fetch_agent_metrics___get_company_metrics___retrieve_listing_metrics___get_office_and_team_metrics___How_Analytics_API_Works__Retrieve_all_the_metric_definitions__It_can_be_filtered_by_related_resources_and_metric_names___Retrieve_listing_metrics_and_agent_metrics_by_day___This_API_is_used_to_fetch_office_company_and_team_metrics____Generic_Information__A_response_is_always_sent_for_a_request__Make_sure_that_your_application_does_not_time_out___If_the_API_is_triggered_again_avoid_use_of_short_retry_periods_to_keep_out_of_rate_limiting_scenarios__PrerequisitesTo_use_this_API_in_a_production_environment_you_must_have_the_following_details__API_Key___Okta_credentials___Okta_scope____httpsbtt_realogyfg_comanalyticsapi_httpsbtt_realogyfg_comanalyticsapi__How_to_Register_and_Create_an_AccountTo_use_the_Analytics_API_do_the_steps_as_follows___1__Go_to__Anywhere_Developer_Portal_httpsdevelopers_anywhere_re_and_Login_httpsdevelopers_anywhere_reuserme_2__See_the_API_product_features_and_requirements_3__Use_Get_Access_and_get_the_API_credentials_4__Refer_to__How_it_Works_httpsdevelopers_anywhere_redocshow_it_works_for_more_details__Sandbox_Access_For_Sandbox_access_visit_the_Sandbox_Portal_URL_a_hrefhttpsdevelopers_anywhere_readd_app_target_blankGet_Sandbox_product_accessa___Production_Access__For_Production_access_visit_the_Production_Portal_URL_a_hrefhttpsdevelopers_anywhere_readd_app_target_blankGet_Production_product_accessa_",
+  "license": "Unlicense",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "mocha --recursive"
+  },
+  "browser": {
+    "fs": false
+  },
+  "dependencies": {
+    "superagent": "3.7.0",
+    "querystring": "0.2.0"
+  },
+  "devDependencies": {
+    "mocha": "~2.3.4",
+    "sinon": "1.17.3",
+    "expect.js": "~0.3.1"
+  }
+}
